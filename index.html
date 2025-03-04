@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uptown Vintage Stationeries</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f1e3;
+            color: #3e2723;
+        }
+        header {
+            background: #6d4c41;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            background: #8d6e63;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #a1887f;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?vintage,books') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product-card {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+        }
+        .contact {
+            background: #6d4c41;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #ffd54f;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Uptown Vintage Stationeries
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Our Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Timeless Reads, Endless Stories</h2>
+        <p>Explore our collection of vintage and classic old books.</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2>Our Vintage Collection</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://source.unsplash.com/300x200/?old-book" alt="Vintage Book">
+                <h3>The Timeless Novel</h3>
+                <p>A classic book from the 1800s.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://source.unsplash.com/300x200/?library" alt="Vintage Library">
+                <h3>History of Literature</h3>
+                <p>Rare editions with golden pages.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 <a href="tel:0758520986">0758520986</a></p>
+    </div>
+
+</body>
+</html>
